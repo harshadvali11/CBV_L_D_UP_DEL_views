@@ -8,7 +8,7 @@
 <h1>List Of Schools</h1>
 
     {% for school in schools %}
-        <h1>{{school.name}}</h1>
+        <a href="{{school.pk}}"><h1>{{school.name}}</h1></a>
     {% endfor %}
 
 
